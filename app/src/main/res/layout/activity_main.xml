@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="16dp">
+
+    <EditText android:id="@+id/etTitle" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Event Title" />
+    <EditText android:id="@+id/etLocation" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Location" />
+    <EditText android:id="@+id/etDesc" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Description"
+        android:minLines="3" android:gravity="top" />
+
+    <Button android:id="@+id/btnDetails" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="View Details" />
+    <Button android:id="@+id/btnShare" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Share Event" />
+    <Button android:id="@+id/btnMap" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Open Location" />
+    <Button android:id="@+id/btnRemind" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Remind Me in 10 Seconds" />
+    <Button android:id="@+id/btnCall" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Call Organizer" />
+
+    <TextView android:id="@+id/tvRsvp" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="16dp"
+        android:textSize="18sp" android:text="RSVP Status: " />
+</LinearLayout>
+</ScrollView>
